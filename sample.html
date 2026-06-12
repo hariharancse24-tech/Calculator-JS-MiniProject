@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hari's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+
+        <h2>CALCULATOR</h2>
+
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+            <button onclick="clearScreen()">C</button>
+            <button onclick="removeLast()">DEL</button>
+            <button onclick="pressBtn('%')">%</button>
+            <button onclick="pressBtn('/')">/</button>
+
+            <button onclick="pressBtn('7')">7</button>
+            <button onclick="pressBtn('8')">8</button>
+            <button onclick="pressBtn('9')">9</button>
+            <button onclick="pressBtn('*')">*</button>
+
+            <button onclick="pressBtn('4')">4</button>
+            <button onclick="pressBtn('5')">5</button>
+            <button onclick="pressBtn('6')">6</button>
+            <button onclick="pressBtn('-')">-</button>
+
+            <button onclick="pressBtn('1')">1</button>
+            <button onclick="pressBtn('2')">2</button>
+            <button onclick="pressBtn('3')">3</button>
+            <button onclick="pressBtn('+')">+</button>
+
+            <button onclick="pressBtn('0')">0</button>
+            <button onclick="pressBtn('00')">00</button>
+            <button onclick="pressBtn('.')">.</button>
+            <button onclick="showResult()">=</button>
+            
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html
